@@ -8,5 +8,5 @@ ADD requirements.txt .
 
 RUN pip install -r requirements.txt
 
-ENV TS=Asia/Shanghai
+ENV TZ=Asia/Shanghai
 
